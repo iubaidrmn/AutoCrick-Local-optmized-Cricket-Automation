@@ -1,0 +1,72 @@
+
+  <div class="container">
+    <div class="left-content">
+      <!-- Left compnets content here -->
+      <img src="assets/logo.jpg" alt="LOCA logo">
+      <h1>Login and SignUp</h1>
+      <p>
+        A social media designed for 
+        the country's favourite Sport.
+      </p>
+    </div>
+    <mat-card class="login-card">
+      <!-- Login component content here -->
+      
+        <mat-card-content>
+        
+        <div class="box-container">
+          <div class="boxone" >
+            <p>Start your Cricket Journey</p>
+          </div>
+          <div class="box2" >
+            <p>with Us</p>
+          </div>
+        </div>
+
+          <div class="header">
+            <P >Sign Into Your Account </P>
+          </div>
+          <form (ngSubmit)="onLogin()" name="loginForm" [formGroup]="loginForm">
+            <div class="emailInput">
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Email</mat-label>
+                <input
+                  formControlName="email"
+                  matInput
+                  placeholder="Enter email address" required
+                />
+                <mat-error *ngIf="!loginForm.controls['email'].valid">
+                    Email is required
+                  </mat-error>
+              </mat-form-field>
+            </div>
+    
+            <div>
+              <span>
+                <a class="text-link" class="aLink" routerLink="/auth/forgot-password">Forgot Password?</a>
+              </span>
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Password</mat-label>
+                <input formControlName="password" matInput [type]=" hide ? 'password' : 'text'" required />
+                <button  mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide Password'"
+                [attr.aria-pressed]="hide">
+                <mat-icon>
+                    {{hide ? 'visibility_off' : 'visibility'}}
+                </mat-icon>
+            </button>
+            <mat-error *ngIf="!loginForm.controls['password'].valid">
+                Password is required
+              </mat-error>
+            </mat-form-field>
+            </div>
+            <button mat-flat-button color="primary">Login</button>
+          </form>
+
+          <div class="button-row">
+            <a class="text-link" class="aLink" routerLink="/auth/forgot-password">Not a member SignUp Now</a>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    
+  </div>
+  

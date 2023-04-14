@@ -1,0 +1,82 @@
+mat-card {
+  max-width: 600px;
+  margin: 2em auto;
+  text-align: center;
+  max-height: 600px;
+  float: right;
+  border: 2px solid white;
+}
+
+  
+  .header{
+    text-align: center;
+  
+  }
+  .full-width {
+    width: 80%;
+  }
+  
+  .button-row {
+    padding-top: 5px;
+  }
+  
+  .button-row a {
+    margin-right: 8px;
+    text-align: center;
+  }
+  
+  .forget-password{
+    padding-left: 0px;
+  }
+  
+  .emailInput{
+    padding-top: 10px;
+    
+  }
+  
+  .contentBody {
+    padding: 60px 1rem;
+    background :#1b6ca8;
+    display: block;
+  }
+  
+  .aLink{
+    float: right;
+    padding-right: 60px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+    
+  
+  .login-card p {
+    color: white;
+  }
+
+  .login-card{
+    float: right;
+    height: 100%;
+    max-height: 80%;
+    width: 50%;
+    background-color: #48BF53;
+    vertical-align: middle;
+  }
+
+  .left-content {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  .left-content img {
+    margin-bottom: 5px;
+  }
+  
+  
+  .left-content p {
+    text-align: center;
+  }
+ 
