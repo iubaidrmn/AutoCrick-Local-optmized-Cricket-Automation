@@ -6,7 +6,7 @@ Our goal is to help PCB spend money rightly on the truly deserving and talented 
 
 3.	Tools and technology:
 •	Logo Design: Adobe photoshop, Canva.
-•	Frontend: HTML, React.js and bootstrap (CSS).
+•	Frontend: Angular and bootstrap (CSS).
 •	Backend: DJANGO framework with PYTHON (data analysis using PANDAS, NUMPY and MATPLOTLIB).
 •	Web Server: DJINX.
 •	Database: MONGODB.
