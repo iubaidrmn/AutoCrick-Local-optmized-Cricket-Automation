@@ -18,4 +18,6 @@ Our goal is to help PCB spend money rightly on the truly deserving and talented 
 4.	Complete database and record of talented players by their ranks and detailed stats.
 5.	Helping youngsters to learn cricket techniques by tutorials uploaded by experts.
 
+Following is a sample prototype image.
+
 ![homepage img](https://user-images.githubusercontent.com/115970796/232844864-63a5a2a0-af39-40b7-8997-5aa13c751d37.png)
